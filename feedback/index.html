@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang="en-US" ng-app="feedbackApp">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Feedback</title>
+        <script type="text/javascript" src="libs/angular.js"></script>
+        <script type="text/javascript" src="app/feedbackApp.js"></script>    
+        <script type="text/javascript" src="app/controllers/feedbackController.js"></script>    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div ng-include="'app/views/feedback-form.html'"></div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
